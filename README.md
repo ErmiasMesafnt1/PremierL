@@ -1,5 +1,8 @@
 # CornerGuard
 
+I had made this app since I believe there is a serious problem with the modern day play style within my favorite soccer/football leauge in the world the Premier League. I included features that show in what means certain teams are winning and if the stats reflect where they stand in the actual Premier League Table.
+
+
 An Expo project built for Expo Go.
 
 ## Running with Expo Go
