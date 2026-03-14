@@ -1,4 +1,4 @@
-# PremierL
+# CornerGuard
 
 An Expo project built for Expo Go.
 
