@@ -100,11 +100,13 @@ export default function SignUp() {
           showsVerticalScrollIndicator={false}
         >
           <View style={styles.logoContainer}>
-            <Image
-              source={require('@/assets/images/totw-logo.png')}
-              style={styles.logo}
-              contentFit="contain"
-            />
+            <View style={styles.logoBorder}>
+              <Image
+                source={require('@/assets/images/totw-logo.png')}
+                style={styles.logo}
+                contentFit="contain"
+              />
+            </View>
           </View>
           <View style={styles.formCard}>
             <Text style={styles.title}>Create Account</Text>

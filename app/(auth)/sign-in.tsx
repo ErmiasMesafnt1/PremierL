@@ -86,11 +86,13 @@ export default function SignIn() {
           showsVerticalScrollIndicator={false}
         >
           <View style={styles.logoContainer}>
-            <Image
-              source={require('@/assets/images/totw-logo.png')}
-              style={styles.logo}
-              contentFit="contain"
-            />
+            <View style={styles.logoBorder}>
+              <Image
+                source={require('@/assets/images/totw-logo.png')}
+                style={styles.logo}
+                contentFit="contain"
+              />
+            </View>
           </View>
           <View style={styles.formCard}>
             <Text style={styles.title}>Welcome back</Text>
